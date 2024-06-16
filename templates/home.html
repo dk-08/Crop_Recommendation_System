@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Smart Crop</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='myhome.css') }}"
+    />
+  </head>
+  <body>
+      <div class="container">
+        <div class="navbar">
+          <img src="static/logo.png" class="logo" alt="Crop Company Logo" />
+          <span class="company-name">Smart Crop</span>
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h1>Crops</h1>
+            <p>
+              Crops are vital for sustenance, providing food, fiber, and fuel. They encompass a variety of plants, from grains like wheat to fruits like apples and lemons, and vegetables like peas.
+            </p>
+            <p>
+              At Smart Crop, we specialize in maximizing crop yields through advanced technologies and sustainable practices. From precision agriculture to crop consulting, we offer solutions to enhance productivity while preserving the environment.
+            </p>
+            
+          </div>
+          <div class="col_1">
+            <div class="card card1">
+              <h5>Wheat</h5>
+              <p></p>
+            </div>
+          <div class="card card2">
+            <h5>Apples</h5>
+            <p></p>
+          </div>
+          <div class="card card3">
+            <h5>Lemon</h5>
+            <p></p>
+          </div>
+          <div class="card card4">
+            <h5>Peas</h5>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </header>
+    <main></main>
+    <form class="predict-form" action="/Predict">
+      <input type="submit" id="Predict" name="Predict" value="Predict" />
+    </form>
+  </body>
+</html>
